@@ -1,6 +1,0 @@
-#!/Users/pythodevai/projects/claude-trader-bot/venv/bin/python3.11
-import sys
-from choreographer.cli._cli_utils import get_chrome_cli
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(get_chrome_cli())
