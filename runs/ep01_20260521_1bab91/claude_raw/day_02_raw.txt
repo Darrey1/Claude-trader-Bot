@@ -1,0 +1,20 @@
+{
+  "day": 2,
+  "market_view": "bearish",
+  "selected_strategy": "risk_off",
+  "portfolio_action": "de_risk",
+  "target_allocations": {
+    "BTC": 0.25,
+    "ETH": 0.05,
+    "SOL": 0.04,
+    "BNB": 0.12,
+    "XRP": 0.04,
+    "DOGE": 0.03,
+    "LINK": 0.03,
+    "AVAX": 0.04,
+    "CASH": 0.40
+  },
+  "reasoning": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility.",
+  "risk_note": "Continued broad-based crypto selloff — primary risk is further downside across all positions; increasing cash buffer to protect capital.",
+  "confidence": 0.65
+}

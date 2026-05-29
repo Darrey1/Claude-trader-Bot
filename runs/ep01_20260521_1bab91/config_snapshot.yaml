@@ -1,0 +1,58 @@
+episode:
+  title: I Gave Claude $20,000 To Trade Crypto
+  run_mode: backtest
+  start_date: '2026-05-21'
+  end_date: '2026-05-28'
+  duration_days: 7
+  decision_frequency: 1d
+  timezone: UTC
+  model: claude-sonnet-4-6
+  prompt_version: v1.0
+  run_id: ep01_20260521_1bab91
+  locked_at: '2026-05-29T22:01:39.490714+00:00'
+assets:
+  universe:
+  - BTC
+  - ETH
+  - SOL
+  - BNB
+  - XRP
+  - DOGE
+  - LINK
+  - AVAX
+  quote_currency: USD
+  data_source: binance
+  candle_interval: 1d
+  lookback_days: 60
+risk:
+  max_asset_allocation: 0.4
+  max_total_crypto_exposure: 0.8
+  min_cash_allocation: 0.2
+  leverage_enabled: false
+  shorting_enabled: false
+  trading_fee_bps: 10
+  slippage_bps: 5
+  execution_price: next_open
+indicators:
+  rsi_periods:
+  - 7
+  - 14
+  sma_periods:
+  - 20
+  - 50
+  volatility_window: 14
+  drawdown_lookback: 30
+portfolio:
+  starting_capital: 20000
+benchmarks:
+- BTC_hold
+- ETH_hold
+- BTC_ETH_50_50
+- equal_weight_universe
+- cash
+exports:
+  png_snapshots: true
+  csv_trade_log: true
+  json_run_log: true
+  html_dashboard: true
+  key_moments_md: true

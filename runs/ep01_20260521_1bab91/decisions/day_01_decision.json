@@ -1,0 +1,31 @@
+{
+  "day": 1,
+  "market_view": "mixed",
+  "selected_strategy": "balanced",
+  "portfolio_action": "increase_exposure",
+  "target_allocations": {
+    "BTC": 0.25,
+    "ETH": 0.05,
+    "SOL": 0.05,
+    "BNB": 0.15,
+    "XRP": 0.05,
+    "DOGE": 0.05,
+    "LINK": 0.05,
+    "AVAX": 0.05,
+    "CASH": 0.3
+  },
+  "reasoning": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe.",
+  "risk_note": "Broad market downtrend could resume; overweighting cash and BNB as the relative strength leader while limiting exposure to weaker assets like ETH which is in strong_downtrend.",
+  "confidence": 0.55,
+  "decision_date": "2026-05-21",
+  "called_at": "2026-05-29T22:36:55.517811+00:00",
+  "validation_report": {
+    "status": "APPROVED",
+    "corrections": [],
+    "rejections": [],
+    "allocation_sum": 1.0,
+    "crypto_exposure": 0.7,
+    "cash_allocation": 0.3,
+    "validated_at": "2026-05-29T22:36:55.517860+00:00"
+  }
+}

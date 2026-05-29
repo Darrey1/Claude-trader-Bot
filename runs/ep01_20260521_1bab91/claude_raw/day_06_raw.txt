@@ -1,0 +1,20 @@
+{
+  "day": 6,
+  "market_view": "bearish",
+  "selected_strategy": "risk_off",
+  "portfolio_action": "de_risk",
+  "target_allocations": {
+    "BTC": 0.30,
+    "ETH": 0.04,
+    "SOL": 0.03,
+    "BNB": 0.28,
+    "XRP": 0.02,
+    "DOGE": 0.01,
+    "LINK": 0.02,
+    "AVAX": 0.03,
+    "CASH": 0.27
+  },
+  "reasoning": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital.",
+  "risk_note": "Broad market downtrend with no clear reversal signals; main risk is continued drawdown in all crypto positions, particularly ETH which is in a strong downtrend with -12.5% 30d return.",
+  "confidence": 0.55
+}

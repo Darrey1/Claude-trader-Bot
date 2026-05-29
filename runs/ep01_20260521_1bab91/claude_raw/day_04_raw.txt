@@ -1,0 +1,20 @@
+{
+  "day": 4,
+  "market_view": "bearish",
+  "selected_strategy": "momentum_rotation",
+  "portfolio_action": "rebalance",
+  "target_allocations": {
+    "BTC": 0.30,
+    "ETH": 0.04,
+    "SOL": 0.03,
+    "BNB": 0.22,
+    "XRP": 0.02,
+    "DOGE": 0.01,
+    "LINK": 0.02,
+    "AVAX": 0.03,
+    "CASH": 0.33
+  },
+  "reasoning": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers.",
+  "risk_note": "Broad market downtrend across most assets with ETH in strong downtrend; primary risk is continued altcoin deterioration dragging down BNB and BTC, so elevated cash provides buffer.",
+  "confidence": 0.6
+}

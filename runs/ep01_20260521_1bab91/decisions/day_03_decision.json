@@ -1,0 +1,31 @@
+{
+  "day": 3,
+  "market_view": "mixed",
+  "selected_strategy": "momentum_rotation",
+  "portfolio_action": "rebalance",
+  "target_allocations": {
+    "BTC": 0.3,
+    "ETH": 0.05,
+    "SOL": 0.04,
+    "BNB": 0.18,
+    "XRP": 0.03,
+    "DOGE": 0.02,
+    "LINK": 0.03,
+    "AVAX": 0.05,
+    "CASH": 0.3
+  },
+  "reasoning": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness.",
+  "risk_note": "Broad market remains in downtrend territory across most assets; concentrated exposure to BNB introduces single-asset momentum risk if trend reverses sharply.",
+  "confidence": 0.58,
+  "decision_date": "2026-05-23",
+  "called_at": "2026-05-29T22:37:10.038653+00:00",
+  "validation_report": {
+    "status": "APPROVED",
+    "corrections": [],
+    "rejections": [],
+    "allocation_sum": 1.0,
+    "crypto_exposure": 0.7,
+    "cash_allocation": 0.3,
+    "validated_at": "2026-05-29T22:37:10.038715+00:00"
+  }
+}

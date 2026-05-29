@@ -1,0 +1,65 @@
+{
+  "source": "Binance public REST API",
+  "downloaded_at": "2026-05-29T22:36:48.048279+00:00",
+  "symbol_map": {
+    "BTC": "BTC/USDT",
+    "ETH": "ETH/USDT",
+    "SOL": "SOL/USDT",
+    "BNB": "BNB/USDT",
+    "XRP": "XRP/USDT",
+    "DOGE": "DOGE/USDT",
+    "LINK": "LINK/USDT",
+    "AVAX": "AVAX/USDT"
+  },
+  "candle_interval": "1d",
+  "assets": {
+    "BTC": {
+      "symbol": "BTC/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "ETH": {
+      "symbol": "ETH/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "SOL": {
+      "symbol": "SOL/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "BNB": {
+      "symbol": "BNB/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "XRP": {
+      "symbol": "XRP/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "DOGE": {
+      "symbol": "DOGE/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "LINK": {
+      "symbol": "LINK/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    },
+    "AVAX": {
+      "symbol": "AVAX/USDT",
+      "candle_count": 69,
+      "first_candle": "2026-03-22T00:00:00+00:00",
+      "last_candle": "2026-05-29T00:00:00+00:00"
+    }
+  }
+}

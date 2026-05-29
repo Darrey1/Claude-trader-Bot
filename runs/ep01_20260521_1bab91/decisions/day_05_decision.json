@@ -1,0 +1,31 @@
+{
+  "day": 5,
+  "market_view": "mixed",
+  "selected_strategy": "momentum_rotation",
+  "portfolio_action": "rebalance",
+  "target_allocations": {
+    "BTC": 0.3,
+    "ETH": 0.04,
+    "SOL": 0.03,
+    "BNB": 0.28,
+    "XRP": 0.02,
+    "DOGE": 0.01,
+    "LINK": 0.02,
+    "AVAX": 0.03,
+    "CASH": 0.27
+  },
+  "reasoning": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk.",
+  "risk_note": "Primary risk is a broad crypto selloff that would drag even BNB and BTC lower; elevated cash buffer provides protection and dry powder for opportunistic entries if conditions improve.",
+  "confidence": 0.6,
+  "decision_date": "2026-05-25",
+  "called_at": "2026-05-29T22:37:25.909561+00:00",
+  "validation_report": {
+    "status": "APPROVED",
+    "corrections": [],
+    "rejections": [],
+    "allocation_sum": 1.0,
+    "crypto_exposure": 0.73,
+    "cash_allocation": 0.27,
+    "validated_at": "2026-05-29T22:37:25.909627+00:00"
+  }
+}

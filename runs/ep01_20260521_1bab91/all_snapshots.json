@@ -1,0 +1,2654 @@
+[
+  {
+    "day": 0,
+    "date": "2026-05-21",
+    "total_value": 20000.0,
+    "cash": 20000.0,
+    "realized_pnl": 0.0,
+    "unrealized_pnl": 0.0,
+    "max_drawdown": 0.0,
+    "equity_curve": [
+      20000.0
+    ],
+    "positions": {},
+    "trades_today": [],
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19986.29,
+        "return_pct": -0.0007,
+        "buy_price": 77552.24,
+        "current_price": 77615.52
+      },
+      "ETH_hold": {
+        "value": 20010.51,
+        "return_pct": 0.0005,
+        "buy_price": 2129.44,
+        "current_price": 2133.76
+      },
+      "BTC_ETH_50_50": {
+        "value": 19998.4,
+        "return_pct": -0.0001
+      },
+      "equal_weight_universe": {
+        "value": 20179.37,
+        "return_pct": 0.009
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    },
+    "decision": null,
+    "market_signals": {
+      "BTC": {
+        "price": 77615.52,
+        "return_1d": 0.000816,
+        "return_7d": -0.042847,
+        "return_30d": 0.01676,
+        "rsi_7": 41.07,
+        "rsi_14": 47.94,
+        "sma_20": 79446.6615,
+        "sma_50": 76220.0082,
+        "volatility_14d_annualized": 0.2527,
+        "drawdown_from_30d_high": -0.0559,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "ETH": {
+        "price": 2133.76,
+        "return_1d": 0.002029,
+        "return_7d": -0.065472,
+        "return_30d": -0.083098,
+        "rsi_7": 28.95,
+        "rsi_14": 36.81,
+        "sma_20": 2259.6295,
+        "sma_50": 2262.1866,
+        "volatility_14d_annualized": 0.2908,
+        "drawdown_from_30d_high": -0.1012,
+        "trend": "strong_downtrend",
+        "candles_available": 61
+      },
+      "SOL": {
+        "price": 87.36,
+        "return_1d": 0.01381,
+        "return_7d": -0.05198,
+        "return_30d": 0.01546,
+        "rsi_7": 47.58,
+        "rsi_14": 49.1,
+        "sma_20": 88.847,
+        "sma_50": 86.1342,
+        "volatility_14d_annualized": 0.4848,
+        "drawdown_from_30d_high": -0.1028,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "BNB": {
+        "price": 658.58,
+        "return_1d": 0.01398,
+        "return_7d": -0.02903,
+        "return_30d": 0.042519,
+        "rsi_7": 56.61,
+        "rsi_14": 56.56,
+        "sma_20": 649.548,
+        "sma_50": 629.9942,
+        "volatility_14d_annualized": 0.2601,
+        "drawdown_from_30d_high": -0.029,
+        "trend": "strong_uptrend",
+        "candles_available": 61
+      },
+      "XRP": {
+        "price": 1.3739,
+        "return_1d": 0.004901,
+        "return_7d": -0.074939,
+        "return_30d": -0.04151,
+        "rsi_7": 38.1,
+        "rsi_14": 43.91,
+        "sma_20": 1.414,
+        "sma_50": 1.3957,
+        "volatility_14d_annualized": 0.4202,
+        "drawdown_from_30d_high": -0.0749,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "DOGE": {
+        "price": 0.10568,
+        "return_1d": 0.018995,
+        "return_7d": -0.084705,
+        "return_30d": 0.110317,
+        "rsi_7": 42.58,
+        "rsi_14": 48.86,
+        "sma_20": 0.1096,
+        "sma_50": 0.1014,
+        "volatility_14d_annualized": 0.4306,
+        "drawdown_from_30d_high": -0.0847,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "LINK": {
+        "price": 9.757,
+        "return_1d": 0.012557,
+        "return_7d": -0.068989,
+        "return_30d": 0.037979,
+        "rsi_7": 47.54,
+        "rsi_14": 50.6,
+        "sma_20": 9.9032,
+        "sma_50": 9.4449,
+        "volatility_14d_annualized": 0.5064,
+        "drawdown_from_30d_high": -0.0898,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "AVAX": {
+        "price": 9.453,
+        "return_1d": 0.01667,
+        "return_7d": -0.046115,
+        "return_30d": 0.006709,
+        "rsi_7": 50.26,
+        "rsi_14": 50.03,
+        "sma_20": 9.5416,
+        "sma_50": 9.3718,
+        "volatility_14d_annualized": 0.4423,
+        "drawdown_from_30d_high": -0.076,
+        "trend": "downtrend",
+        "candles_available": 61
+      }
+    },
+    "note": "Starting position \u2014 100% cash, no trades yet."
+  },
+  {
+    "day": 1,
+    "date": "2026-05-21",
+    "total_value": 19616.42,
+    "cash": 5979.0,
+    "realized_pnl": 0.0,
+    "unrealized_pnl": -362.58,
+    "max_drawdown": -0.0192,
+    "equity_curve": [
+      20000.0,
+      19616.42
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.06442011,
+        "avg_cost": 77615.52,
+        "current_price": 75539.5,
+        "market_value": 4866.26,
+        "allocation_pct": 0.2481,
+        "unrealized_pnl": -133.74,
+        "unrealized_pnl_pct": -0.0267
+      },
+      "ETH": {
+        "quantity": 0.46865407,
+        "avg_cost": 2133.77,
+        "current_price": 2065.85,
+        "market_value": 968.17,
+        "allocation_pct": 0.0494,
+        "unrealized_pnl": -31.83,
+        "unrealized_pnl_pct": -0.0318
+      },
+      "SOL": {
+        "quantity": 11.44819691,
+        "avg_cost": 87.35,
+        "current_price": 84.4,
+        "market_value": 966.23,
+        "allocation_pct": 0.0493,
+        "unrealized_pnl": -33.77,
+        "unrealized_pnl_pct": -0.0338
+      },
+      "BNB": {
+        "quantity": 4.55525525,
+        "avg_cost": 658.58,
+        "current_price": 650.44,
+        "market_value": 2962.92,
+        "allocation_pct": 0.151,
+        "unrealized_pnl": -37.08,
+        "unrealized_pnl_pct": -0.0124
+      },
+      "XRP": {
+        "quantity": 727.85501128,
+        "avg_cost": 1.3739,
+        "current_price": 1.3345,
+        "market_value": 971.32,
+        "allocation_pct": 0.0495,
+        "unrealized_pnl": -28.68,
+        "unrealized_pnl_pct": -0.0287
+      },
+      "DOGE": {
+        "quantity": 9463.42386675,
+        "avg_cost": 0.10567,
+        "current_price": 0.10234,
+        "market_value": 968.49,
+        "allocation_pct": 0.0494,
+        "unrealized_pnl": -31.51,
+        "unrealized_pnl_pct": -0.0315
+      },
+      "LINK": {
+        "quantity": 102.51153255,
+        "avg_cost": 9.755,
+        "current_price": 9.42,
+        "market_value": 965.66,
+        "allocation_pct": 0.0492,
+        "unrealized_pnl": -34.34,
+        "unrealized_pnl_pct": -0.0343
+      },
+      "AVAX": {
+        "quantity": 105.7865228,
+        "avg_cost": 9.453,
+        "current_price": 9.154,
+        "market_value": 968.37,
+        "allocation_pct": 0.0494,
+        "unrealized_pnl": -31.63,
+        "unrealized_pnl_pct": -0.0316
+      }
+    },
+    "trades_today": [
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "BTC",
+        "action": "BUY",
+        "price": 77615.52,
+        "quantity": 0.06442011,
+        "notional": 5000.0,
+        "fee": 5.0,
+        "slippage": 2.5,
+        "total_cost": 7.5,
+        "net_spend": 5007.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "ETH",
+        "action": "BUY",
+        "price": 2133.77,
+        "quantity": 0.46865407,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "SOL",
+        "action": "BUY",
+        "price": 87.35,
+        "quantity": 11.44819691,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "BNB",
+        "action": "BUY",
+        "price": 658.58,
+        "quantity": 4.55525525,
+        "notional": 3000.0,
+        "fee": 3.0,
+        "slippage": 1.5,
+        "total_cost": 4.5,
+        "net_spend": 3004.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "XRP",
+        "action": "BUY",
+        "price": 1.3739,
+        "quantity": 727.85501128,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "DOGE",
+        "action": "BUY",
+        "price": 0.10567,
+        "quantity": 9463.42386675,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "LINK",
+        "action": "BUY",
+        "price": 9.755,
+        "quantity": 102.51153255,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      },
+      {
+        "day": 1,
+        "date": "2026-05-21",
+        "asset": "AVAX",
+        "action": "BUY",
+        "price": 9.453,
+        "quantity": 105.7865228,
+        "notional": 1000.0,
+        "fee": 1.0,
+        "slippage": 0.5,
+        "total_cost": 1.5,
+        "net_spend": 1001.5,
+        "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "balanced",
+      "market_view": "mixed",
+      "portfolio_action": "increase_exposure",
+      "reasoning": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe.",
+      "risk_note": "Broad market downtrend could resume; overweighting cash and BNB as the relative strength leader while limiting exposure to weaker assets like ETH which is in strong_downtrend.",
+      "confidence": 0.55,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.7,
+        "cash_allocation": 0.3,
+        "validated_at": "2026-05-29T22:36:55.517860+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 77615.52,
+        "return_1d": 0.000816,
+        "return_7d": -0.042847,
+        "return_30d": 0.01676,
+        "rsi_7": 41.07,
+        "rsi_14": 47.94,
+        "sma_20": 79446.6615,
+        "sma_50": 76220.0082,
+        "volatility_14d_annualized": 0.2527,
+        "drawdown_from_30d_high": -0.0559,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "ETH": {
+        "price": 2133.76,
+        "return_1d": 0.002029,
+        "return_7d": -0.065472,
+        "return_30d": -0.083098,
+        "rsi_7": 28.95,
+        "rsi_14": 36.81,
+        "sma_20": 2259.6295,
+        "sma_50": 2262.1866,
+        "volatility_14d_annualized": 0.2908,
+        "drawdown_from_30d_high": -0.1012,
+        "trend": "strong_downtrend",
+        "candles_available": 61
+      },
+      "SOL": {
+        "price": 87.36,
+        "return_1d": 0.01381,
+        "return_7d": -0.05198,
+        "return_30d": 0.01546,
+        "rsi_7": 47.58,
+        "rsi_14": 49.1,
+        "sma_20": 88.847,
+        "sma_50": 86.1342,
+        "volatility_14d_annualized": 0.4848,
+        "drawdown_from_30d_high": -0.1028,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "BNB": {
+        "price": 658.58,
+        "return_1d": 0.01398,
+        "return_7d": -0.02903,
+        "return_30d": 0.042519,
+        "rsi_7": 56.61,
+        "rsi_14": 56.56,
+        "sma_20": 649.548,
+        "sma_50": 629.9942,
+        "volatility_14d_annualized": 0.2601,
+        "drawdown_from_30d_high": -0.029,
+        "trend": "strong_uptrend",
+        "candles_available": 61
+      },
+      "XRP": {
+        "price": 1.3739,
+        "return_1d": 0.004901,
+        "return_7d": -0.074939,
+        "return_30d": -0.04151,
+        "rsi_7": 38.1,
+        "rsi_14": 43.91,
+        "sma_20": 1.414,
+        "sma_50": 1.3957,
+        "volatility_14d_annualized": 0.4202,
+        "drawdown_from_30d_high": -0.0749,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "DOGE": {
+        "price": 0.10568,
+        "return_1d": 0.018995,
+        "return_7d": -0.084705,
+        "return_30d": 0.110317,
+        "rsi_7": 42.58,
+        "rsi_14": 48.86,
+        "sma_20": 0.1096,
+        "sma_50": 0.1014,
+        "volatility_14d_annualized": 0.4306,
+        "drawdown_from_30d_high": -0.0847,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "LINK": {
+        "price": 9.757,
+        "return_1d": 0.012557,
+        "return_7d": -0.068989,
+        "return_30d": 0.037979,
+        "rsi_7": 47.54,
+        "rsi_14": 50.6,
+        "sma_20": 9.9032,
+        "sma_50": 9.4449,
+        "volatility_14d_annualized": 0.5064,
+        "drawdown_from_30d_high": -0.0898,
+        "trend": "downtrend",
+        "candles_available": 61
+      },
+      "AVAX": {
+        "price": 9.453,
+        "return_1d": 0.01667,
+        "return_7d": -0.046115,
+        "return_30d": 0.006709,
+        "rsi_7": 50.26,
+        "rsi_14": 50.03,
+        "sma_20": 9.5416,
+        "sma_50": 9.3718,
+        "volatility_14d_annualized": 0.4423,
+        "drawdown_from_30d_high": -0.076,
+        "trend": "downtrend",
+        "candles_available": 61
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19451.71,
+        "return_pct": -0.0274,
+        "buy_price": 77552.24,
+        "current_price": 75539.5
+      },
+      "ETH_hold": {
+        "value": 19373.65,
+        "return_pct": -0.0313,
+        "buy_price": 2129.44,
+        "current_price": 2065.85
+      },
+      "BTC_ETH_50_50": {
+        "value": 19412.68,
+        "return_pct": -0.0294
+      },
+      "equal_weight_universe": {
+        "value": 19595.99,
+        "return_pct": -0.0202
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 2,
+    "date": "2026-05-22",
+    "total_value": 19797.92,
+    "cash": 7843.84,
+    "realized_pnl": -54.1,
+    "unrealized_pnl": -126.91,
+    "max_drawdown": -0.0192,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.06492106,
+        "avg_cost": 77599.500706,
+        "current_price": 76752.01,
+        "market_value": 4982.82,
+        "allocation_pct": 0.2517,
+        "unrealized_pnl": -55.02,
+        "unrealized_pnl_pct": -0.0109
+      },
+      "ETH": {
+        "quantity": 0.47477606,
+        "avg_cost": 2132.894336,
+        "current_price": 2117.68,
+        "market_value": 1005.42,
+        "allocation_pct": 0.0508,
+        "unrealized_pnl": -7.22,
+        "unrealized_pnl_pct": -0.0071
+      },
+      "SOL": {
+        "quantity": 9.29688029,
+        "avg_cost": 87.35,
+        "current_price": 85.75,
+        "market_value": 797.21,
+        "allocation_pct": 0.0403,
+        "unrealized_pnl": -14.88,
+        "unrealized_pnl_pct": -0.0183
+      },
+      "BNB": {
+        "quantity": 3.61898699,
+        "avg_cost": 658.58,
+        "current_price": 656.26,
+        "market_value": 2375.0,
+        "allocation_pct": 0.12,
+        "unrealized_pnl": -8.4,
+        "unrealized_pnl_pct": -0.0035
+      },
+      "XRP": {
+        "quantity": 587.93398491,
+        "avg_cost": 1.3739,
+        "current_price": 1.3583,
+        "market_value": 798.59,
+        "allocation_pct": 0.0403,
+        "unrealized_pnl": -9.17,
+        "unrealized_pnl_pct": -0.0114
+      },
+      "DOGE": {
+        "quantity": 5750.36664249,
+        "avg_cost": 0.10567,
+        "current_price": 0.10307,
+        "market_value": 592.69,
+        "allocation_pct": 0.0299,
+        "unrealized_pnl": -14.95,
+        "unrealized_pnl_pct": -0.0246
+      },
+      "LINK": {
+        "quantity": 62.4726669,
+        "avg_cost": 9.755,
+        "current_price": 9.565,
+        "market_value": 597.55,
+        "allocation_pct": 0.0302,
+        "unrealized_pnl": -11.87,
+        "unrealized_pnl_pct": -0.0195
+      },
+      "AVAX": {
+        "quantity": 85.70799522,
+        "avg_cost": 9.453,
+        "current_price": 9.39,
+        "market_value": 804.8,
+        "allocation_pct": 0.0407,
+        "unrealized_pnl": -5.4,
+        "unrealized_pnl_pct": -0.0067
+      }
+    },
+    "trades_today": [
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "SOL",
+        "action": "SELL",
+        "price": 84.4,
+        "quantity": 2.15131662,
+        "notional": 181.57,
+        "fee": 0.1816,
+        "slippage": 0.0908,
+        "total_cost": 0.2724,
+        "net_proceeds": 181.3,
+        "realized_pnl": -6.62,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "BNB",
+        "action": "SELL",
+        "price": 650.45,
+        "quantity": 0.93626825,
+        "notional": 609.0,
+        "fee": 0.609,
+        "slippage": 0.3045,
+        "total_cost": 0.9135,
+        "net_proceeds": 608.08,
+        "realized_pnl": -8.53,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "XRP",
+        "action": "SELL",
+        "price": 1.3346,
+        "quantity": 139.92102638,
+        "notional": 186.74,
+        "fee": 0.1867,
+        "slippage": 0.0934,
+        "total_cost": 0.2801,
+        "net_proceeds": 186.46,
+        "realized_pnl": -5.78,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "DOGE",
+        "action": "SELL",
+        "price": 0.10234,
+        "quantity": 3713.05722427,
+        "notional": 379.99,
+        "fee": 0.38,
+        "slippage": 0.19,
+        "total_cost": 0.57,
+        "net_proceeds": 379.42,
+        "realized_pnl": -12.93,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "LINK",
+        "action": "SELL",
+        "price": 9.42,
+        "quantity": 40.03886565,
+        "notional": 377.17,
+        "fee": 0.3772,
+        "slippage": 0.1886,
+        "total_cost": 0.5657,
+        "net_proceeds": 376.6,
+        "realized_pnl": -13.98,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "AVAX",
+        "action": "SELL",
+        "price": 9.155,
+        "quantity": 20.07852758,
+        "notional": 183.82,
+        "fee": 0.1838,
+        "slippage": 0.0919,
+        "total_cost": 0.2757,
+        "net_proceeds": 183.54,
+        "realized_pnl": -6.26,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "BTC",
+        "action": "BUY",
+        "price": 75539.5,
+        "quantity": 0.00050095,
+        "notional": 37.84,
+        "fee": 0.0378,
+        "slippage": 0.0189,
+        "total_cost": 0.0568,
+        "net_spend": 37.9,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      },
+      {
+        "day": 2,
+        "date": "2026-05-22",
+        "asset": "ETH",
+        "action": "BUY",
+        "price": 2065.86,
+        "quantity": 0.00612199,
+        "notional": 12.65,
+        "fee": 0.0126,
+        "slippage": 0.0063,
+        "total_cost": 0.019,
+        "net_spend": 12.67,
+        "reason": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "risk_off",
+      "market_view": "bearish",
+      "portfolio_action": "de_risk",
+      "reasoning": "All assets are in downtrend with broad daily losses of 2-3.5%, ETH showing a strong downtrend with RSI near oversold at 19.99, and BTC RSI at 28. The macro environment is uniformly bearish across the universe, so increasing cash to 40% reduces drawdown risk while maintaining some BTC exposure as the relative safe haven with lowest volatility.",
+      "risk_note": "Continued broad-based crypto selloff \u2014 primary risk is further downside across all positions; increasing cash buffer to protect capital.",
+      "confidence": 0.65,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.6,
+        "cash_allocation": 0.4,
+        "validated_at": "2026-05-29T22:37:02.559357+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 75539.5,
+        "return_1d": -0.026747,
+        "return_7d": -0.045172,
+        "return_30d": -0.033753,
+        "rsi_7": 28.03,
+        "rsi_14": 40.42,
+        "sma_20": 79289.294,
+        "sma_50": 76392.7584,
+        "volatility_14d_annualized": 0.2811,
+        "drawdown_from_30d_high": -0.0811,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "ETH": {
+        "price": 2065.85,
+        "return_1d": -0.031826,
+        "return_7d": -0.071386,
+        "return_30d": -0.129828,
+        "rsi_7": 19.99,
+        "rsi_14": 31.3,
+        "sma_20": 2247.0735,
+        "sma_50": 2262.3602,
+        "volatility_14d_annualized": 0.3134,
+        "drawdown_from_30d_high": -0.1288,
+        "trend": "strong_downtrend",
+        "candles_available": 62
+      },
+      "SOL": {
+        "price": 84.4,
+        "return_1d": -0.033883,
+        "return_7d": -0.054236,
+        "return_30d": -0.028433,
+        "rsi_7": 36.37,
+        "rsi_14": 43.0,
+        "sma_20": 88.854,
+        "sma_50": 86.2434,
+        "volatility_14d_annualized": 0.4575,
+        "drawdown_from_30d_high": -0.1332,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "BNB": {
+        "price": 650.44,
+        "return_1d": -0.01236,
+        "return_7d": -0.03263,
+        "return_30d": 0.020346,
+        "rsi_7": 48.18,
+        "rsi_14": 52.2,
+        "sma_20": 651.1685,
+        "sma_50": 631.3326,
+        "volatility_14d_annualized": 0.2528,
+        "drawdown_from_30d_high": -0.041,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "XRP": {
+        "price": 1.3345,
+        "return_1d": -0.028677,
+        "return_7d": -0.069386,
+        "return_30d": -0.066391,
+        "rsi_7": 28.53,
+        "rsi_14": 38.19,
+        "sma_20": 1.411,
+        "sma_50": 1.396,
+        "volatility_14d_annualized": 0.4232,
+        "drawdown_from_30d_high": -0.1015,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "DOGE": {
+        "price": 0.10234,
+        "return_1d": -0.031605,
+        "return_7d": -0.097212,
+        "return_30d": 0.069942,
+        "rsi_7": 33.59,
+        "rsi_14": 43.34,
+        "sma_20": 0.1093,
+        "sma_50": 0.1016,
+        "volatility_14d_annualized": 0.4463,
+        "drawdown_from_30d_high": -0.1136,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "LINK": {
+        "price": 9.42,
+        "return_1d": -0.034539,
+        "return_7d": -0.064548,
+        "return_30d": 0.013994,
+        "rsi_7": 36.48,
+        "rsi_14": 44.42,
+        "sma_20": 9.9156,
+        "sma_50": 9.4607,
+        "volatility_14d_annualized": 0.4558,
+        "drawdown_from_30d_high": -0.1213,
+        "trend": "downtrend",
+        "candles_available": 62
+      },
+      "AVAX": {
+        "price": 9.154,
+        "return_1d": -0.03163,
+        "return_7d": -0.040461,
+        "return_30d": -0.018864,
+        "rsi_7": 38.41,
+        "rsi_14": 43.8,
+        "sma_20": 9.5403,
+        "sma_50": 9.3799,
+        "volatility_14d_annualized": 0.4024,
+        "drawdown_from_30d_high": -0.1052,
+        "trend": "downtrend",
+        "candles_available": 62
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19763.94,
+        "return_pct": -0.0118,
+        "buy_price": 77552.24,
+        "current_price": 76752.01
+      },
+      "ETH_hold": {
+        "value": 19859.71,
+        "return_pct": -0.007,
+        "buy_price": 2129.44,
+        "current_price": 2117.68
+      },
+      "BTC_ETH_50_50": {
+        "value": 19811.83,
+        "return_pct": -0.0094
+      },
+      "equal_weight_universe": {
+        "value": 19919.21,
+        "return_pct": -0.004
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 3,
+    "date": "2026-05-23",
+    "total_value": 19773.59,
+    "cash": 5935.6,
+    "realized_pnl": -62.3,
+    "unrealized_pnl": -139.54,
+    "max_drawdown": -0.0192,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92,
+      19773.59
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.077384,
+        "avg_cost": 77463.008018,
+        "current_price": 77064.96,
+        "market_value": 5963.59,
+        "allocation_pct": 0.3016,
+        "unrealized_pnl": -30.8,
+        "unrealized_pnl_pct": -0.0051
+      },
+      "ETH": {
+        "quantity": 0.46744146,
+        "avg_cost": 2132.894336,
+        "current_price": 2099.85,
+        "market_value": 981.56,
+        "allocation_pct": 0.0496,
+        "unrealized_pnl": -15.45,
+        "unrealized_pnl_pct": -0.0155
+      },
+      "SOL": {
+        "quantity": 9.23410551,
+        "avg_cost": 87.35,
+        "current_price": 85.27,
+        "market_value": 787.39,
+        "allocation_pct": 0.0398,
+        "unrealized_pnl": -19.21,
+        "unrealized_pnl_pct": -0.0238
+      },
+      "BNB": {
+        "quantity": 5.43020449,
+        "avg_cost": 657.806176,
+        "current_price": 656.57,
+        "market_value": 3565.31,
+        "allocation_pct": 0.1803,
+        "unrealized_pnl": -6.71,
+        "unrealized_pnl_pct": -0.0019
+      },
+      "XRP": {
+        "quantity": 437.2332643,
+        "avg_cost": 1.3739,
+        "current_price": 1.351,
+        "market_value": 590.7,
+        "allocation_pct": 0.0299,
+        "unrealized_pnl": -10.01,
+        "unrealized_pnl_pct": -0.0167
+      },
+      "DOGE": {
+        "quantity": 3841.27322611,
+        "avg_cost": 0.10567,
+        "current_price": 0.10227,
+        "market_value": 392.85,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -13.06,
+        "unrealized_pnl_pct": -0.0322
+      },
+      "LINK": {
+        "quantity": 62.08840333,
+        "avg_cost": 9.755,
+        "current_price": 9.431,
+        "market_value": 585.56,
+        "allocation_pct": 0.0296,
+        "unrealized_pnl": -20.12,
+        "unrealized_pnl_pct": -0.0332
+      },
+      "AVAX": {
+        "quantity": 105.40902038,
+        "avg_cost": 9.441412,
+        "current_price": 9.212,
+        "market_value": 971.03,
+        "allocation_pct": 0.0491,
+        "unrealized_pnl": -24.18,
+        "unrealized_pnl_pct": -0.0243
+      }
+    },
+    "trades_today": [
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "ETH",
+        "action": "SELL",
+        "price": 2117.69,
+        "quantity": 0.0073346,
+        "notional": 15.53,
+        "fee": 0.0155,
+        "slippage": 0.0078,
+        "total_cost": 0.0233,
+        "net_proceeds": 15.51,
+        "realized_pnl": -0.13,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "SOL",
+        "action": "SELL",
+        "price": 85.76,
+        "quantity": 0.06277478,
+        "notional": 5.38,
+        "fee": 0.0054,
+        "slippage": 0.0027,
+        "total_cost": 0.0081,
+        "net_proceeds": 5.38,
+        "realized_pnl": -0.11,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "XRP",
+        "action": "SELL",
+        "price": 1.3584,
+        "quantity": 150.70072061,
+        "notional": 204.71,
+        "fee": 0.2047,
+        "slippage": 0.1024,
+        "total_cost": 0.3071,
+        "net_proceeds": 204.4,
+        "realized_pnl": -2.64,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "DOGE",
+        "action": "SELL",
+        "price": 0.10308,
+        "quantity": 1909.09341637,
+        "notional": 196.79,
+        "fee": 0.1968,
+        "slippage": 0.0984,
+        "total_cost": 0.2952,
+        "net_proceeds": 196.49,
+        "realized_pnl": -5.24,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "LINK",
+        "action": "SELL",
+        "price": 9.566,
+        "quantity": 0.38426357,
+        "notional": 3.68,
+        "fee": 0.0037,
+        "slippage": 0.0018,
+        "total_cost": 0.0055,
+        "net_proceeds": 3.67,
+        "realized_pnl": -0.08,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "BTC",
+        "action": "BUY",
+        "price": 76752.0,
+        "quantity": 0.01246294,
+        "notional": 956.56,
+        "fee": 0.9566,
+        "slippage": 0.4783,
+        "total_cost": 1.4348,
+        "net_spend": 957.99,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "BNB",
+        "action": "BUY",
+        "price": 656.26,
+        "quantity": 1.8112175,
+        "notional": 1188.63,
+        "fee": 1.1886,
+        "slippage": 0.5943,
+        "total_cost": 1.7829,
+        "net_spend": 1190.41,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      },
+      {
+        "day": 3,
+        "date": "2026-05-23",
+        "asset": "AVAX",
+        "action": "BUY",
+        "price": 9.391,
+        "quantity": 19.70102516,
+        "notional": 185.01,
+        "fee": 0.185,
+        "slippage": 0.0925,
+        "total_cost": 0.2775,
+        "net_spend": 185.29,
+        "reason": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "momentum_rotation",
+      "market_view": "mixed",
+      "portfolio_action": "rebalance",
+      "reasoning": "BNB is the clear standout with a strong uptrend, positive 30d return, and RSI near 54 \u2014 rotating more weight there. BTC remains the most stable large-cap with relatively low volatility, so maintaining meaningful exposure. ETH and most altcoins are in downtrends with weak RSIs, so keeping those positions minimal while holding 30% cash as a buffer against continued market weakness.",
+      "risk_note": "Broad market remains in downtrend territory across most assets; concentrated exposure to BNB introduces single-asset momentum risk if trend reverses sharply.",
+      "confidence": 0.58,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.7,
+        "cash_allocation": 0.3,
+        "validated_at": "2026-05-29T22:37:10.038715+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 76752.01,
+        "return_1d": 0.016051,
+        "return_7d": -0.017864,
+        "return_30d": -0.019237,
+        "rsi_7": 40.83,
+        "rsi_14": 45.77,
+        "sma_20": 79198.466,
+        "sma_50": 76588.5126,
+        "volatility_14d_annualized": 0.2954,
+        "drawdown_from_30d_high": -0.0664,
+        "trend": "downtrend",
+        "candles_available": 63
+      },
+      "ETH": {
+        "price": 2117.68,
+        "return_1d": 0.025089,
+        "return_7d": -0.02893,
+        "return_30d": -0.091226,
+        "rsi_7": 37.28,
+        "rsi_14": 38.83,
+        "sma_20": 2236.825,
+        "sma_50": 2263.6372,
+        "volatility_14d_annualized": 0.3468,
+        "drawdown_from_30d_high": -0.1069,
+        "trend": "strong_downtrend",
+        "candles_available": 63
+      },
+      "SOL": {
+        "price": 85.75,
+        "return_1d": 0.015995,
+        "return_7d": -0.009129,
+        "return_30d": -0.004296,
+        "rsi_7": 43.46,
+        "rsi_14": 46.28,
+        "sma_20": 88.946,
+        "sma_50": 86.3504,
+        "volatility_14d_annualized": 0.4621,
+        "drawdown_from_30d_high": -0.1193,
+        "trend": "downtrend",
+        "candles_available": 63
+      },
+      "BNB": {
+        "price": 656.26,
+        "return_1d": 0.008948,
+        "return_7d": 9.1e-05,
+        "return_30d": 0.027751,
+        "rsi_7": 53.91,
+        "rsi_14": 54.88,
+        "sma_20": 653.118,
+        "sma_50": 632.6916,
+        "volatility_14d_annualized": 0.2567,
+        "drawdown_from_30d_high": -0.0325,
+        "trend": "strong_uptrend",
+        "candles_available": 63
+      },
+      "XRP": {
+        "price": 1.3583,
+        "return_1d": 0.017834,
+        "return_7d": -0.03912,
+        "return_30d": -0.055818,
+        "rsi_7": 39.27,
+        "rsi_14": 43.02,
+        "sma_20": 1.4095,
+        "sma_50": 1.3967,
+        "volatility_14d_annualized": 0.4372,
+        "drawdown_from_30d_high": -0.0854,
+        "trend": "downtrend",
+        "candles_available": 63
+      },
+      "DOGE": {
+        "price": 0.10307,
+        "return_1d": 0.007133,
+        "return_7d": -0.057603,
+        "return_30d": 0.061046,
+        "rsi_7": 36.99,
+        "rsi_14": 44.81,
+        "sma_20": 0.109,
+        "sma_50": 0.1019,
+        "volatility_14d_annualized": 0.4502,
+        "drawdown_from_30d_high": -0.1073,
+        "trend": "downtrend",
+        "candles_available": 63
+      },
+      "LINK": {
+        "price": 9.565,
+        "return_1d": 0.015393,
+        "return_7d": -0.015947,
+        "return_30d": 0.022995,
+        "rsi_7": 43.12,
+        "rsi_14": 47.4,
+        "sma_20": 9.9374,
+        "sma_50": 9.479,
+        "volatility_14d_annualized": 0.4673,
+        "drawdown_from_30d_high": -0.1077,
+        "trend": "downtrend",
+        "candles_available": 63
+      },
+      "AVAX": {
+        "price": 9.39,
+        "return_1d": 0.025781,
+        "return_7d": 0.010764,
+        "return_30d": 0.001066,
+        "rsi_7": 49.4,
+        "rsi_14": 49.18,
+        "sma_20": 9.5557,
+        "sma_50": 9.3895,
+        "volatility_14d_annualized": 0.4295,
+        "drawdown_from_30d_high": -0.0821,
+        "trend": "downtrend",
+        "candles_available": 63
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19844.52,
+        "return_pct": -0.0078,
+        "buy_price": 77552.24,
+        "current_price": 77064.96
+      },
+      "ETH_hold": {
+        "value": 19692.5,
+        "return_pct": -0.0154,
+        "buy_price": 2129.44,
+        "current_price": 2099.85
+      },
+      "BTC_ETH_50_50": {
+        "value": 19768.51,
+        "return_pct": -0.0116
+      },
+      "equal_weight_universe": {
+        "value": 19780.58,
+        "return_pct": -0.011
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 4,
+    "date": "2026-05-24",
+    "total_value": 19846.24,
+    "cash": 6522.14,
+    "realized_pnl": -97.98,
+    "unrealized_pnl": -30.04,
+    "max_drawdown": -0.0192,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92,
+      19773.59,
+      19846.24
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.07697502,
+        "avg_cost": 77463.008018,
+        "current_price": 77322.01,
+        "market_value": 5951.86,
+        "allocation_pct": 0.2999,
+        "unrealized_pnl": -10.85,
+        "unrealized_pnl_pct": -0.0018
+      },
+      "ETH": {
+        "quantity": 0.37666492,
+        "avg_cost": 2132.894336,
+        "current_price": 2113.01,
+        "market_value": 795.9,
+        "allocation_pct": 0.0401,
+        "unrealized_pnl": -7.49,
+        "unrealized_pnl_pct": -0.0093
+      },
+      "SOL": {
+        "quantity": 6.95681593,
+        "avg_cost": 87.35,
+        "current_price": 85.06,
+        "market_value": 591.75,
+        "allocation_pct": 0.0298,
+        "unrealized_pnl": -15.93,
+        "unrealized_pnl_pct": -0.0262
+      },
+      "BNB": {
+        "quantity": 6.62552889,
+        "avg_cost": 657.584959,
+        "current_price": 663.15,
+        "market_value": 4393.72,
+        "allocation_pct": 0.2214,
+        "unrealized_pnl": 36.87,
+        "unrealized_pnl_pct": 0.0085
+      },
+      "XRP": {
+        "quantity": 292.72523764,
+        "avg_cost": 1.3739,
+        "current_price": 1.3503,
+        "market_value": 395.27,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -6.91,
+        "unrealized_pnl_pct": -0.0172
+      },
+      "DOGE": {
+        "quantity": 1933.28019186,
+        "avg_cost": 0.10567,
+        "current_price": 0.10214,
+        "market_value": 197.47,
+        "allocation_pct": 0.0099,
+        "unrealized_pnl": -6.82,
+        "unrealized_pnl_pct": -0.0334
+      },
+      "LINK": {
+        "quantity": 41.9331774,
+        "avg_cost": 9.755,
+        "current_price": 9.506,
+        "market_value": 398.62,
+        "allocation_pct": 0.0201,
+        "unrealized_pnl": -10.44,
+        "unrealized_pnl_pct": -0.0255
+      },
+      "AVAX": {
+        "quantity": 64.39510357,
+        "avg_cost": 9.441412,
+        "current_price": 9.31,
+        "market_value": 599.52,
+        "allocation_pct": 0.0302,
+        "unrealized_pnl": -8.46,
+        "unrealized_pnl_pct": -0.0139
+      }
+    },
+    "trades_today": [
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "BTC",
+        "action": "SELL",
+        "price": 77064.96,
+        "quantity": 0.00040898,
+        "notional": 31.52,
+        "fee": 0.0315,
+        "slippage": 0.0158,
+        "total_cost": 0.0473,
+        "net_proceeds": 31.47,
+        "realized_pnl": -0.21,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "ETH",
+        "action": "SELL",
+        "price": 2099.86,
+        "quantity": 0.09077655,
+        "notional": 190.62,
+        "fee": 0.1906,
+        "slippage": 0.0953,
+        "total_cost": 0.2859,
+        "net_proceeds": 190.33,
+        "realized_pnl": -3.28,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "SOL",
+        "action": "SELL",
+        "price": 85.27,
+        "quantity": 2.27728958,
+        "notional": 194.18,
+        "fee": 0.1942,
+        "slippage": 0.0971,
+        "total_cost": 0.2913,
+        "net_proceeds": 193.89,
+        "realized_pnl": -5.03,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "XRP",
+        "action": "SELL",
+        "price": 1.351,
+        "quantity": 144.50802666,
+        "notional": 195.23,
+        "fee": 0.1952,
+        "slippage": 0.0976,
+        "total_cost": 0.2928,
+        "net_proceeds": 194.94,
+        "realized_pnl": -3.6,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "DOGE",
+        "action": "SELL",
+        "price": 0.10228,
+        "quantity": 1907.99303425,
+        "notional": 195.15,
+        "fee": 0.1951,
+        "slippage": 0.0976,
+        "total_cost": 0.2927,
+        "net_proceeds": 194.86,
+        "realized_pnl": -6.76,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "LINK",
+        "action": "SELL",
+        "price": 9.431,
+        "quantity": 20.15522593,
+        "notional": 190.08,
+        "fee": 0.1901,
+        "slippage": 0.095,
+        "total_cost": 0.2851,
+        "net_proceeds": 189.8,
+        "realized_pnl": -6.82,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "AVAX",
+        "action": "SELL",
+        "price": 9.212,
+        "quantity": 41.01391681,
+        "notional": 377.82,
+        "fee": 0.3778,
+        "slippage": 0.1889,
+        "total_cost": 0.5667,
+        "net_proceeds": 377.25,
+        "realized_pnl": -9.98,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      },
+      {
+        "day": 4,
+        "date": "2026-05-24",
+        "asset": "BNB",
+        "action": "BUY",
+        "price": 656.58,
+        "quantity": 1.1953244,
+        "notional": 784.83,
+        "fee": 0.7848,
+        "slippage": 0.3924,
+        "total_cost": 1.1772,
+        "net_spend": 786.0,
+        "reason": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "momentum_rotation",
+      "market_view": "bearish",
+      "portfolio_action": "rebalance",
+      "reasoning": "BNB is the only asset in a strong uptrend with positive 7d and 30d returns and RSI above 50, making it the clear momentum leader to overweight. BTC shows relative resilience near its 50-day SMA while most alts are in downtrends with weak RSI readings, so I reduce exposure to underperformers (ETH, XRP, DOGE, LINK, AVAX) and raise cash to 33% for downside protection. This rotation concentrates in the two strongest assets while cutting losers.",
+      "risk_note": "Broad market downtrend across most assets with ETH in strong downtrend; primary risk is continued altcoin deterioration dragging down BNB and BTC, so elevated cash provides buffer.",
+      "confidence": 0.6,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.67,
+        "cash_allocation": 0.33,
+        "validated_at": "2026-05-29T22:37:18.033414+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 77064.96,
+        "return_1d": 0.004077,
+        "return_7d": -0.00507,
+        "return_30d": -0.004806,
+        "rsi_7": 43.84,
+        "rsi_14": 47.09,
+        "sma_20": 79058.6635,
+        "sma_50": 76783.8034,
+        "volatility_14d_annualized": 0.2728,
+        "drawdown_from_30d_high": -0.0626,
+        "trend": "downtrend",
+        "candles_available": 64
+      },
+      "ETH": {
+        "price": 2099.85,
+        "return_1d": -0.00842,
+        "return_7d": -0.014618,
+        "return_30d": -0.092933,
+        "rsi_7": 34.3,
+        "rsi_14": 37.32,
+        "sma_20": 2224.4595,
+        "sma_50": 2264.3238,
+        "volatility_14d_annualized": 0.3164,
+        "drawdown_from_30d_high": -0.1145,
+        "trend": "strong_downtrend",
+        "candles_available": 64
+      },
+      "SOL": {
+        "price": 85.27,
+        "return_1d": -0.005598,
+        "return_7d": 0.000352,
+        "return_30d": -0.010559,
+        "rsi_7": 41.54,
+        "rsi_14": 45.28,
+        "sma_20": 89.0045,
+        "sma_50": 86.4392,
+        "volatility_14d_annualized": 0.4034,
+        "drawdown_from_30d_high": -0.1243,
+        "trend": "downtrend",
+        "candles_available": 64
+      },
+      "BNB": {
+        "price": 656.57,
+        "return_1d": 0.000472,
+        "return_7d": 0.010916,
+        "return_30d": 0.032002,
+        "rsi_7": 54.22,
+        "rsi_14": 55.03,
+        "sma_20": 654.815,
+        "sma_50": 633.9558,
+        "volatility_14d_annualized": 0.2313,
+        "drawdown_from_30d_high": -0.032,
+        "trend": "strong_uptrend",
+        "candles_available": 64
+      },
+      "XRP": {
+        "price": 1.351,
+        "return_1d": -0.005374,
+        "return_7d": -0.036102,
+        "return_30d": -0.057486,
+        "rsi_7": 37.27,
+        "rsi_14": 41.94,
+        "sma_20": 1.4075,
+        "sma_50": 1.3975,
+        "volatility_14d_annualized": 0.3787,
+        "drawdown_from_30d_high": -0.0904,
+        "trend": "downtrend",
+        "candles_available": 64
+      },
+      "DOGE": {
+        "price": 0.10227,
+        "return_1d": -0.007762,
+        "return_7d": -0.061657,
+        "return_30d": 0.039012,
+        "rsi_7": 34.72,
+        "rsi_14": 43.48,
+        "sma_20": 0.1086,
+        "sma_50": 0.1021,
+        "volatility_14d_annualized": 0.4003,
+        "drawdown_from_30d_high": -0.1142,
+        "trend": "downtrend",
+        "candles_available": 64
+      },
+      "LINK": {
+        "price": 9.431,
+        "return_1d": -0.014009,
+        "return_7d": -0.014525,
+        "return_30d": 0.005437,
+        "rsi_7": 38.75,
+        "rsi_14": 45.0,
+        "sma_20": 9.941,
+        "sma_50": 9.4938,
+        "volatility_14d_annualized": 0.4162,
+        "drawdown_from_30d_high": -0.1202,
+        "trend": "downtrend",
+        "candles_available": 64
+      },
+      "AVAX": {
+        "price": 9.212,
+        "return_1d": -0.018956,
+        "return_7d": 0.001304,
+        "return_30d": -0.02,
+        "rsi_7": 42.7,
+        "rsi_14": 45.63,
+        "sma_20": 9.5573,
+        "sma_50": 9.3939,
+        "volatility_14d_annualized": 0.4017,
+        "drawdown_from_30d_high": -0.0995,
+        "trend": "downtrend",
+        "candles_available": 64
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19910.71,
+        "return_pct": -0.0045,
+        "buy_price": 77552.24,
+        "current_price": 77322.01
+      },
+      "ETH_hold": {
+        "value": 19815.92,
+        "return_pct": -0.0092,
+        "buy_price": 2129.44,
+        "current_price": 2113.01
+      },
+      "BTC_ETH_50_50": {
+        "value": 19863.32,
+        "return_pct": -0.0068
+      },
+      "equal_weight_universe": {
+        "value": 19864.82,
+        "return_pct": -0.0068
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 5,
+    "date": "2026-05-25",
+    "total_value": 19632.66,
+    "cash": 5357.71,
+    "realized_pnl": -98.11,
+    "unrealized_pnl": -241.73,
+    "max_drawdown": -0.0192,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92,
+      19773.59,
+      19846.24,
+      19632.66
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.07700099,
+        "avg_cost": 77462.960475,
+        "current_price": 75930.01,
+        "market_value": 5846.69,
+        "allocation_pct": 0.2978,
+        "unrealized_pnl": -118.04,
+        "unrealized_pnl_pct": -0.0198
+      },
+      "ETH": {
+        "quantity": 0.37569603,
+        "avg_cost": 2132.894336,
+        "current_price": 2073.77,
+        "market_value": 779.11,
+        "allocation_pct": 0.0397,
+        "unrealized_pnl": -22.21,
+        "unrealized_pnl_pct": -0.0277
+      },
+      "SOL": {
+        "quantity": 6.99961317,
+        "avg_cost": 87.335998,
+        "current_price": 83.72,
+        "market_value": 586.01,
+        "allocation_pct": 0.0298,
+        "unrealized_pnl": -25.31,
+        "unrealized_pnl_pct": -0.0414
+      },
+      "BNB": {
+        "quantity": 8.37962186,
+        "avg_cost": 658.74988,
+        "current_price": 656.43,
+        "market_value": 5500.64,
+        "allocation_pct": 0.2802,
+        "unrealized_pnl": -19.44,
+        "unrealized_pnl_pct": -0.0035
+      },
+      "XRP": {
+        "quantity": 293.95299643,
+        "avg_cost": 1.373801,
+        "current_price": 1.3292,
+        "market_value": 390.72,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -13.11,
+        "unrealized_pnl_pct": -0.0325
+      },
+      "DOGE": {
+        "quantity": 1933.28019186,
+        "avg_cost": 0.10567,
+        "current_price": 0.10105,
+        "market_value": 195.36,
+        "allocation_pct": 0.01,
+        "unrealized_pnl": -8.93,
+        "unrealized_pnl_pct": -0.0437
+      },
+      "LINK": {
+        "quantity": 41.75517895,
+        "avg_cost": 9.755,
+        "current_price": 9.386,
+        "market_value": 391.91,
+        "allocation_pct": 0.02,
+        "unrealized_pnl": -15.41,
+        "unrealized_pnl_pct": -0.0378
+      },
+      "AVAX": {
+        "quantity": 63.95135302,
+        "avg_cost": 9.441412,
+        "current_price": 9.14,
+        "market_value": 584.52,
+        "allocation_pct": 0.0298,
+        "unrealized_pnl": -19.28,
+        "unrealized_pnl_pct": -0.0319
+      }
+    },
+    "trades_today": [
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "ETH",
+        "action": "SELL",
+        "price": 2113.01,
+        "quantity": 0.00096889,
+        "notional": 2.05,
+        "fee": 0.002,
+        "slippage": 0.001,
+        "total_cost": 0.0031,
+        "net_proceeds": 2.04,
+        "realized_pnl": -0.02,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "LINK",
+        "action": "SELL",
+        "price": 9.506,
+        "quantity": 0.17799845,
+        "notional": 1.69,
+        "fee": 0.0017,
+        "slippage": 0.0008,
+        "total_cost": 0.0025,
+        "net_proceeds": 1.69,
+        "realized_pnl": -0.05,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "AVAX",
+        "action": "SELL",
+        "price": 9.31,
+        "quantity": 0.44375055,
+        "notional": 4.13,
+        "fee": 0.0041,
+        "slippage": 0.0021,
+        "total_cost": 0.0062,
+        "net_proceeds": 4.13,
+        "realized_pnl": -0.06,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "BTC",
+        "action": "BUY",
+        "price": 77322.01,
+        "quantity": 2.596e-05,
+        "notional": 2.01,
+        "fee": 0.002,
+        "slippage": 0.001,
+        "total_cost": 0.003,
+        "net_spend": 2.01,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "SOL",
+        "action": "BUY",
+        "price": 85.06,
+        "quantity": 0.04279725,
+        "notional": 3.64,
+        "fee": 0.0036,
+        "slippage": 0.0018,
+        "total_cost": 0.0055,
+        "net_spend": 3.65,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "BNB",
+        "action": "BUY",
+        "price": 663.15,
+        "quantity": 1.75409297,
+        "notional": 1163.23,
+        "fee": 1.1632,
+        "slippage": 0.5816,
+        "total_cost": 1.7448,
+        "net_spend": 1164.97,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      },
+      {
+        "day": 5,
+        "date": "2026-05-25",
+        "asset": "XRP",
+        "action": "BUY",
+        "price": 1.3503,
+        "quantity": 1.22775879,
+        "notional": 1.66,
+        "fee": 0.0017,
+        "slippage": 0.0008,
+        "total_cost": 0.0025,
+        "net_spend": 1.66,
+        "reason": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "momentum_rotation",
+      "market_view": "mixed",
+      "portfolio_action": "rebalance",
+      "reasoning": "BNB remains the clear momentum leader with a strong uptrend, positive 7d and 30d returns, RSI near 60, and the smallest drawdown in the universe \u2014 maintaining a significant allocation. BTC shows relative stability with near-neutral RSI and only a modest drawdown, warranting a continued 30% anchor. Most altcoins remain in downtrends with weak RSI readings, so exposure is kept minimal while cash stays elevated at 27% to manage downside risk.",
+      "risk_note": "Primary risk is a broad crypto selloff that would drag even BNB and BTC lower; elevated cash buffer provides protection and dry powder for opportunistic entries if conditions improve.",
+      "confidence": 0.6,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.73,
+        "cash_allocation": 0.27,
+        "validated_at": "2026-05-29T22:37:25.909627+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 77322.01,
+        "return_1d": 0.003335,
+        "return_7d": 0.004158,
+        "return_30d": -0.003903,
+        "rsi_7": 46.45,
+        "rsi_14": 48.21,
+        "sma_20": 78879.488,
+        "sma_50": 76949.56,
+        "volatility_14d_annualized": 0.2757,
+        "drawdown_from_30d_high": -0.0595,
+        "trend": "downtrend",
+        "candles_available": 65
+      },
+      "ETH": {
+        "price": 2113.01,
+        "return_1d": 0.006267,
+        "return_7d": -0.008014,
+        "return_30d": -0.089023,
+        "rsi_7": 38.53,
+        "rsi_14": 39.2,
+        "sma_20": 2212.0715,
+        "sma_50": 2264.3806,
+        "volatility_14d_annualized": 0.324,
+        "drawdown_from_30d_high": -0.1089,
+        "trend": "strong_downtrend",
+        "candles_available": 65
+      },
+      "SOL": {
+        "price": 85.06,
+        "return_1d": -0.002463,
+        "return_7d": -0.003748,
+        "return_30d": -0.012996,
+        "rsi_7": 40.63,
+        "rsi_14": 44.83,
+        "sma_20": 88.943,
+        "sma_50": 86.5026,
+        "volatility_14d_annualized": 0.3929,
+        "drawdown_from_30d_high": -0.1264,
+        "trend": "downtrend",
+        "candles_available": 65
+      },
+      "BNB": {
+        "price": 663.15,
+        "return_1d": 0.010022,
+        "return_7d": 0.030488,
+        "return_30d": 0.055081,
+        "rsi_7": 60.84,
+        "rsi_14": 58.09,
+        "sma_20": 656.4515,
+        "sma_50": 635.1888,
+        "volatility_14d_annualized": 0.2305,
+        "drawdown_from_30d_high": -0.0223,
+        "trend": "strong_uptrend",
+        "candles_available": 65
+      },
+      "XRP": {
+        "price": 1.3503,
+        "return_1d": -0.000518,
+        "return_7d": -0.028561,
+        "return_30d": -0.051622,
+        "rsi_7": 37.06,
+        "rsi_14": 41.83,
+        "sma_20": 1.4043,
+        "sma_50": 1.3979,
+        "volatility_14d_annualized": 0.3768,
+        "drawdown_from_30d_high": -0.0908,
+        "trend": "downtrend",
+        "candles_available": 65
+      },
+      "DOGE": {
+        "price": 0.10214,
+        "return_1d": -0.001271,
+        "return_7d": -0.025103,
+        "return_30d": 0.042245,
+        "rsi_7": 34.32,
+        "rsi_14": 43.26,
+        "sma_20": 0.108,
+        "sma_50": 0.1023,
+        "volatility_14d_annualized": 0.4008,
+        "drawdown_from_30d_high": -0.1154,
+        "trend": "downtrend",
+        "candles_available": 65
+      },
+      "LINK": {
+        "price": 9.506,
+        "return_1d": 0.007952,
+        "return_7d": -0.009792,
+        "return_30d": 0.017773,
+        "rsi_7": 42.55,
+        "rsi_14": 46.63,
+        "sma_20": 9.9283,
+        "sma_50": 9.5075,
+        "volatility_14d_annualized": 0.4249,
+        "drawdown_from_30d_high": -0.1132,
+        "trend": "downtrend",
+        "candles_available": 65
+      },
+      "AVAX": {
+        "price": 9.31,
+        "return_1d": 0.010638,
+        "return_7d": 0.007576,
+        "return_30d": -0.005342,
+        "rsi_7": 47.29,
+        "rsi_14": 47.86,
+        "sma_20": 9.5528,
+        "sma_50": 9.3989,
+        "volatility_14d_annualized": 0.4119,
+        "drawdown_from_30d_high": -0.0899,
+        "trend": "downtrend",
+        "candles_available": 65
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19552.27,
+        "return_pct": -0.0224,
+        "buy_price": 77552.24,
+        "current_price": 75930.01
+      },
+      "ETH_hold": {
+        "value": 19447.92,
+        "return_pct": -0.0276,
+        "buy_price": 2129.44,
+        "current_price": 2073.77
+      },
+      "BTC_ETH_50_50": {
+        "value": 19500.1,
+        "return_pct": -0.025
+      },
+      "equal_weight_universe": {
+        "value": 19567.88,
+        "return_pct": -0.0216
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 6,
+    "date": "2026-05-26",
+    "total_value": 19402.46,
+    "cash": 5302.53,
+    "realized_pnl": -98.13,
+    "unrealized_pnl": -471.82,
+    "max_drawdown": -0.0299,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92,
+      19773.59,
+      19846.24,
+      19632.66,
+      19402.46
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.07756877,
+        "avg_cost": 77451.739617,
+        "current_price": 74449.3,
+        "market_value": 5774.94,
+        "allocation_pct": 0.2976,
+        "unrealized_pnl": -232.9,
+        "unrealized_pnl_pct": -0.0388
+      },
+      "ETH": {
+        "quantity": 0.37868536,
+        "avg_cost": 2132.42761,
+        "current_price": 2024.84,
+        "market_value": 766.78,
+        "allocation_pct": 0.0395,
+        "unrealized_pnl": -40.74,
+        "unrealized_pnl_pct": -0.0505
+      },
+      "SOL": {
+        "quantity": 7.03427398,
+        "avg_cost": 87.31823,
+        "current_price": 82.44,
+        "market_value": 579.91,
+        "allocation_pct": 0.0299,
+        "unrealized_pnl": -34.31,
+        "unrealized_pnl_pct": -0.0559
+      },
+      "BNB": {
+        "quantity": 8.37430409,
+        "avg_cost": 658.74988,
+        "current_price": 648.84,
+        "market_value": 5433.58,
+        "allocation_pct": 0.28,
+        "unrealized_pnl": -82.99,
+        "unrealized_pnl_pct": -0.015
+      },
+      "XRP": {
+        "quantity": 295.38341517,
+        "avg_cost": 1.373586,
+        "current_price": 1.3076,
+        "market_value": 386.24,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -19.49,
+        "unrealized_pnl_pct": -0.048
+      },
+      "DOGE": {
+        "quantity": 1933.28019186,
+        "avg_cost": 0.10567,
+        "current_price": 0.10049,
+        "market_value": 194.28,
+        "allocation_pct": 0.01,
+        "unrealized_pnl": -10.01,
+        "unrealized_pnl_pct": -0.049
+      },
+      "LINK": {
+        "quantity": 41.75517895,
+        "avg_cost": 9.755,
+        "current_price": 9.136,
+        "market_value": 381.48,
+        "allocation_pct": 0.0197,
+        "unrealized_pnl": -25.85,
+        "unrealized_pnl_pct": -0.0635
+      },
+      "AVAX": {
+        "quantity": 64.43979876,
+        "avg_cost": 9.439127,
+        "current_price": 9.043,
+        "market_value": 582.73,
+        "allocation_pct": 0.03,
+        "unrealized_pnl": -25.53,
+        "unrealized_pnl_pct": -0.042
+      }
+    },
+    "trades_today": [
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "BNB",
+        "action": "SELL",
+        "price": 656.43,
+        "quantity": 0.00531777,
+        "notional": 3.49,
+        "fee": 0.0035,
+        "slippage": 0.0017,
+        "total_cost": 0.0052,
+        "net_proceeds": 3.49,
+        "realized_pnl": -0.02,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      },
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "BTC",
+        "action": "BUY",
+        "price": 75930.01,
+        "quantity": 0.00056779,
+        "notional": 43.11,
+        "fee": 0.0431,
+        "slippage": 0.0216,
+        "total_cost": 0.0647,
+        "net_spend": 43.18,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      },
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "ETH",
+        "action": "BUY",
+        "price": 2073.77,
+        "quantity": 0.00298934,
+        "notional": 6.2,
+        "fee": 0.0062,
+        "slippage": 0.0031,
+        "total_cost": 0.0093,
+        "net_spend": 6.21,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      },
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "SOL",
+        "action": "BUY",
+        "price": 83.73,
+        "quantity": 0.03466081,
+        "notional": 2.9,
+        "fee": 0.0029,
+        "slippage": 0.0015,
+        "total_cost": 0.0044,
+        "net_spend": 2.91,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      },
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "XRP",
+        "action": "BUY",
+        "price": 1.3293,
+        "quantity": 1.43041875,
+        "notional": 1.9,
+        "fee": 0.0019,
+        "slippage": 0.001,
+        "total_cost": 0.0029,
+        "net_spend": 1.9,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      },
+      {
+        "day": 6,
+        "date": "2026-05-26",
+        "asset": "AVAX",
+        "action": "BUY",
+        "price": 9.14,
+        "quantity": 0.48844574,
+        "notional": 4.46,
+        "fee": 0.0045,
+        "slippage": 0.0022,
+        "total_cost": 0.0067,
+        "net_spend": 4.47,
+        "reason": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "risk_off",
+      "market_view": "bearish",
+      "portfolio_action": "de_risk",
+      "reasoning": "All assets are in downtrend with negative 1-day and 7-day returns across the board; RSI values for most assets are in oversold territory but without reversal signals. BNB remains the relative strength outlier with positive 7d and 30d returns and neutral RSI, so maintaining that position. Holding significant cash and keeping the two strongest assets (BTC and BNB) while minimizing speculative altcoin exposure to protect remaining capital.",
+      "risk_note": "Broad market downtrend with no clear reversal signals; main risk is continued drawdown in all crypto positions, particularly ETH which is in a strong downtrend with -12.5% 30d return.",
+      "confidence": 0.55,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.73,
+        "cash_allocation": 0.27,
+        "validated_at": "2026-05-29T22:37:33.578768+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 75930.01,
+        "return_1d": -0.018003,
+        "return_7d": -0.01177,
+        "return_30d": -0.034676,
+        "rsi_7": 35.91,
+        "rsi_14": 42.93,
+        "sma_20": 78603.638,
+        "sma_50": 77091.087,
+        "volatility_14d_annualized": 0.2794,
+        "drawdown_from_30d_high": -0.0764,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "ETH": {
+        "price": 2073.77,
+        "return_1d": -0.018571,
+        "return_7d": -0.018069,
+        "return_30d": -0.124785,
+        "rsi_7": 31.49,
+        "rsi_14": 35.75,
+        "sma_20": 2198.218,
+        "sma_50": 2263.7128,
+        "volatility_14d_annualized": 0.3103,
+        "drawdown_from_30d_high": -0.1255,
+        "trend": "strong_downtrend",
+        "candles_available": 66
+      },
+      "SOL": {
+        "price": 83.72,
+        "return_1d": -0.015754,
+        "return_7d": -0.006762,
+        "return_30d": -0.036926,
+        "rsi_7": 34.9,
+        "rsi_14": 41.93,
+        "sma_20": 88.671,
+        "sma_50": 86.5764,
+        "volatility_14d_annualized": 0.3749,
+        "drawdown_from_30d_high": -0.1402,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "BNB": {
+        "price": 656.43,
+        "return_1d": -0.010133,
+        "return_7d": 0.02564,
+        "return_30d": 0.032512,
+        "rsi_7": 51.9,
+        "rsi_14": 54.04,
+        "sma_20": 656.886,
+        "sma_50": 636.3152,
+        "volatility_14d_annualized": 0.2323,
+        "drawdown_from_30d_high": -0.0322,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "XRP": {
+        "price": 1.3292,
+        "return_1d": -0.015626,
+        "return_7d": -0.023796,
+        "return_30d": -0.070944,
+        "rsi_7": 30.89,
+        "rsi_14": 38.58,
+        "sma_20": 1.3996,
+        "sma_50": 1.3981,
+        "volatility_14d_annualized": 0.3623,
+        "drawdown_from_30d_high": -0.105,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "DOGE": {
+        "price": 0.10105,
+        "return_1d": -0.010672,
+        "return_7d": -0.018932,
+        "return_30d": 0.018444,
+        "rsi_7": 30.85,
+        "rsi_14": 41.33,
+        "sma_20": 0.1074,
+        "sma_50": 0.1025,
+        "volatility_14d_annualized": 0.4008,
+        "drawdown_from_30d_high": -0.1248,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "LINK": {
+        "price": 9.386,
+        "return_1d": -0.012624,
+        "return_7d": -0.006772,
+        "return_30d": -0.009916,
+        "rsi_7": 38.13,
+        "rsi_14": 44.36,
+        "sma_20": 9.898,
+        "sma_50": 9.519,
+        "volatility_14d_annualized": 0.4073,
+        "drawdown_from_30d_high": -0.1244,
+        "trend": "downtrend",
+        "candles_available": 66
+      },
+      "AVAX": {
+        "price": 9.14,
+        "return_1d": -0.01826,
+        "return_7d": 0.003293,
+        "return_30d": -0.032804,
+        "rsi_7": 40.69,
+        "rsi_14": 44.45,
+        "sma_20": 9.5294,
+        "sma_50": 9.4035,
+        "volatility_14d_annualized": 0.3952,
+        "drawdown_from_30d_high": -0.1065,
+        "trend": "downtrend",
+        "candles_available": 66
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 19170.98,
+        "return_pct": -0.0415,
+        "buy_price": 77552.24,
+        "current_price": 74449.3
+      },
+      "ETH_hold": {
+        "value": 18989.06,
+        "return_pct": -0.0505,
+        "buy_price": 2129.44,
+        "current_price": 2024.84
+      },
+      "BTC_ETH_50_50": {
+        "value": 19080.02,
+        "return_pct": -0.046
+      },
+      "equal_weight_universe": {
+        "value": 19252.88,
+        "return_pct": -0.0374
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  },
+  {
+    "day": 7,
+    "date": "2026-05-27",
+    "total_value": 19275.44,
+    "cash": 8724.81,
+    "realized_pnl": -187.99,
+    "unrealized_pnl": -508.65,
+    "max_drawdown": -0.0362,
+    "equity_curve": [
+      20000.0,
+      19616.42,
+      19797.92,
+      19773.59,
+      19846.24,
+      19632.66,
+      19402.46,
+      19275.44
+    ],
+    "positions": {
+      "BTC": {
+        "quantity": 0.06515326,
+        "avg_cost": 77451.739617,
+        "current_price": 73617.51,
+        "market_value": 4796.42,
+        "allocation_pct": 0.2488,
+        "unrealized_pnl": -249.81,
+        "unrealized_pnl_pct": -0.0495
+      },
+      "ETH": {
+        "quantity": 0.47911336,
+        "avg_cost": 2109.873841,
+        "current_price": 2009.9,
+        "market_value": 962.97,
+        "allocation_pct": 0.05,
+        "unrealized_pnl": -47.9,
+        "unrealized_pnl_pct": -0.0474
+      },
+      "SOL": {
+        "quantity": 7.06143223,
+        "avg_cost": 87.29943,
+        "current_price": 82.11,
+        "market_value": 579.81,
+        "allocation_pct": 0.0301,
+        "unrealized_pnl": -36.64,
+        "unrealized_pnl_pct": -0.0594
+      },
+      "BNB": {
+        "quantity": 4.48556524,
+        "avg_cost": 658.74988,
+        "current_price": 638.24,
+        "market_value": 2862.87,
+        "allocation_pct": 0.1485,
+        "unrealized_pnl": -92.0,
+        "unrealized_pnl_pct": -0.0311
+      },
+      "XRP": {
+        "quantity": 296.76448381,
+        "avg_cost": 1.373279,
+        "current_price": 1.3156,
+        "market_value": 390.42,
+        "allocation_pct": 0.0203,
+        "unrealized_pnl": -17.12,
+        "unrealized_pnl_pct": -0.042
+      },
+      "DOGE": {
+        "quantity": 1933.28019186,
+        "avg_cost": 0.10567,
+        "current_price": 0.09957,
+        "market_value": 192.5,
+        "allocation_pct": 0.01,
+        "unrealized_pnl": -11.79,
+        "unrealized_pnl_pct": -0.0577
+      },
+      "LINK": {
+        "quantity": 42.47939125,
+        "avg_cost": 9.74443,
+        "current_price": 9.004,
+        "market_value": 382.48,
+        "allocation_pct": 0.0198,
+        "unrealized_pnl": -31.45,
+        "unrealized_pnl_pct": -0.076
+      },
+      "AVAX": {
+        "quantity": 42.91630602,
+        "avg_cost": 9.439127,
+        "current_price": 8.928,
+        "market_value": 383.16,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -21.94,
+        "unrealized_pnl_pct": -0.0541
+      }
+    },
+    "trades_today": [
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "BTC",
+        "action": "SELL",
+        "price": 74449.31,
+        "quantity": 0.01241551,
+        "notional": 924.33,
+        "fee": 0.9243,
+        "slippage": 0.4622,
+        "total_cost": 1.3865,
+        "net_proceeds": 922.94,
+        "realized_pnl": -38.66,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "BNB",
+        "action": "SELL",
+        "price": 648.83,
+        "quantity": 3.88873885,
+        "notional": 2523.13,
+        "fee": 2.5231,
+        "slippage": 1.2616,
+        "total_cost": 3.7847,
+        "net_proceeds": 2519.35,
+        "realized_pnl": -42.36,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "AVAX",
+        "action": "SELL",
+        "price": 9.042,
+        "quantity": 21.52349274,
+        "notional": 194.62,
+        "fee": 0.1946,
+        "slippage": 0.0973,
+        "total_cost": 0.2919,
+        "net_proceeds": 194.32,
+        "realized_pnl": -8.84,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "ETH",
+        "action": "BUY",
+        "price": 2024.83,
+        "quantity": 0.10042799,
+        "notional": 203.35,
+        "fee": 0.2033,
+        "slippage": 0.1017,
+        "total_cost": 0.305,
+        "net_spend": 203.65,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "SOL",
+        "action": "BUY",
+        "price": 82.43,
+        "quantity": 0.02715824,
+        "notional": 2.24,
+        "fee": 0.0022,
+        "slippage": 0.0011,
+        "total_cost": 0.0034,
+        "net_spend": 2.24,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "XRP",
+        "action": "BUY",
+        "price": 1.3076,
+        "quantity": 1.38106864,
+        "notional": 1.81,
+        "fee": 0.0018,
+        "slippage": 0.0009,
+        "total_cost": 0.0027,
+        "net_spend": 1.81,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      },
+      {
+        "day": 7,
+        "date": "2026-05-27",
+        "asset": "LINK",
+        "action": "BUY",
+        "price": 9.135,
+        "quantity": 0.7242123,
+        "notional": 6.62,
+        "fee": 0.0066,
+        "slippage": 0.0033,
+        "total_cost": 0.0099,
+        "net_spend": 6.63,
+        "reason": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown."
+      }
+    ],
+    "decision": {
+      "selected_strategy": "risk_off",
+      "market_view": "bearish",
+      "portfolio_action": "de_risk",
+      "reasoning": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority \u2014 increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown.",
+      "risk_note": "Primary risk is continued broad crypto market decline with no technical reversal signals; preserving capital against further losses outweighs potential upside from mean-reversion bounce.",
+      "confidence": 0.6,
+      "validation_report": {
+        "status": "APPROVED",
+        "corrections": [],
+        "rejections": [],
+        "allocation_sum": 1.0,
+        "crypto_exposure": 0.55,
+        "cash_allocation": 0.45,
+        "validated_at": "2026-05-29T22:37:41.663759+00:00"
+      }
+    },
+    "market_signals": {
+      "BTC": {
+        "price": 74449.3,
+        "return_1d": -0.019501,
+        "return_7d": -0.040011,
+        "return_30d": -0.037766,
+        "rsi_7": 28.02,
+        "rsi_14": 38.14,
+        "sma_20": 78325.803,
+        "sma_50": 77141.5886,
+        "volatility_14d_annualized": 0.2855,
+        "drawdown_from_30d_high": -0.0944,
+        "trend": "downtrend",
+        "candles_available": 67
+      },
+      "ETH": {
+        "price": 2024.84,
+        "return_1d": -0.023595,
+        "return_7d": -0.049121,
+        "return_30d": -0.121037,
+        "rsi_7": 24.87,
+        "rsi_14": 31.96,
+        "sma_20": 2184.907,
+        "sma_50": 2259.4094,
+        "volatility_14d_annualized": 0.3227,
+        "drawdown_from_30d_high": -0.1461,
+        "trend": "strong_downtrend",
+        "candles_available": 67
+      },
+      "SOL": {
+        "price": 82.44,
+        "return_1d": -0.015289,
+        "return_7d": -0.043287,
+        "return_30d": -0.028059,
+        "rsi_7": 30.16,
+        "rsi_14": 39.32,
+        "sma_20": 88.372,
+        "sma_50": 86.514,
+        "volatility_14d_annualized": 0.3516,
+        "drawdown_from_30d_high": -0.1533,
+        "trend": "downtrend",
+        "candles_available": 67
+      },
+      "BNB": {
+        "price": 648.84,
+        "return_1d": -0.011563,
+        "return_7d": -0.001016,
+        "return_30d": 0.035113,
+        "rsi_7": 43.48,
+        "rsi_14": 49.81,
+        "sma_20": 657.477,
+        "sma_50": 636.89,
+        "volatility_14d_annualized": 0.2298,
+        "drawdown_from_30d_high": -0.0434,
+        "trend": "downtrend",
+        "candles_available": 67
+      },
+      "XRP": {
+        "price": 1.3076,
+        "return_1d": -0.01625,
+        "return_7d": -0.043593,
+        "return_30d": -0.066467,
+        "rsi_7": 25.77,
+        "rsi_14": 35.54,
+        "sma_20": 1.3956,
+        "sma_50": 1.3967,
+        "volatility_14d_annualized": 0.3665,
+        "drawdown_from_30d_high": -0.1196,
+        "trend": "strong_downtrend",
+        "candles_available": 67
+      },
+      "DOGE": {
+        "price": 0.10049,
+        "return_1d": -0.005542,
+        "return_7d": -0.031048,
+        "return_30d": 0.015563,
+        "rsi_7": 29.09,
+        "rsi_14": 40.34,
+        "sma_20": 0.107,
+        "sma_50": 0.1026,
+        "volatility_14d_annualized": 0.3681,
+        "drawdown_from_30d_high": -0.1297,
+        "trend": "downtrend",
+        "candles_available": 67
+      },
+      "LINK": {
+        "price": 9.136,
+        "return_1d": -0.026635,
+        "return_7d": -0.051889,
+        "return_30d": -0.020793,
+        "rsi_7": 30.45,
+        "rsi_14": 40.01,
+        "sma_20": 9.8623,
+        "sma_50": 9.5159,
+        "volatility_14d_annualized": 0.4205,
+        "drawdown_from_30d_high": -0.1478,
+        "trend": "downtrend",
+        "candles_available": 67
+      },
+      "AVAX": {
+        "price": 9.043,
+        "return_1d": -0.010613,
+        "return_7d": -0.027425,
+        "return_30d": -0.024488,
+        "rsi_7": 37.23,
+        "rsi_14": 42.59,
+        "sma_20": 9.5065,
+        "sma_50": 9.3958,
+        "volatility_14d_annualized": 0.3961,
+        "drawdown_from_30d_high": -0.116,
+        "trend": "downtrend",
+        "candles_available": 67
+      }
+    },
+    "benchmarks": {
+      "BTC_hold": {
+        "value": 18956.79,
+        "return_pct": -0.0522,
+        "buy_price": 77552.24,
+        "current_price": 73617.51
+      },
+      "ETH_hold": {
+        "value": 18848.95,
+        "return_pct": -0.0576,
+        "buy_price": 2129.44,
+        "current_price": 2009.9
+      },
+      "BTC_ETH_50_50": {
+        "value": 18902.87,
+        "return_pct": -0.0549
+      },
+      "equal_weight_universe": {
+        "value": 19085.68,
+        "return_pct": -0.0457
+      },
+      "cash": {
+        "value": 20000,
+        "return_pct": 0.0
+      }
+    }
+  }
+]

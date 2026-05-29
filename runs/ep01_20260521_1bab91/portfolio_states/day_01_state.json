@@ -1,0 +1,194 @@
+{
+  "day": 1,
+  "date": "2026-05-21",
+  "total_value": 19616.417406406945,
+  "cash": 5979.0,
+  "positions": {
+    "BTC": {
+      "quantity": 0.06442010566958772,
+      "avg_cost": 77615.52,
+      "current_price": 75539.5,
+      "market_value": 4866.262572227822,
+      "unrealized_pnl": -133.7374277721783,
+      "unrealized_pnl_pct": -0.026747485554435662
+    },
+    "ETH": {
+      "quantity": 0.46865407236956186,
+      "avg_cost": 2133.77,
+      "current_price": 2065.85,
+      "market_value": 968.1690154046594,
+      "unrealized_pnl": -31.830984595340624,
+      "unrealized_pnl_pct": -0.031830984595340624
+    },
+    "SOL": {
+      "quantity": 11.448196908986835,
+      "avg_cost": 87.35,
+      "current_price": 84.4,
+      "market_value": 966.2278191184889,
+      "unrealized_pnl": -33.772180881511076,
+      "unrealized_pnl_pct": -0.03377218088151108
+    },
+    "BNB": {
+      "quantity": 4.555255246135625,
+      "avg_cost": 658.58,
+      "current_price": 650.44,
+      "market_value": 2962.920222296456,
+      "unrealized_pnl": -37.079777703544096,
+      "unrealized_pnl_pct": -0.012359925901181365
+    },
+    "XRP": {
+      "quantity": 727.8550112817527,
+      "avg_cost": 1.3739,
+      "current_price": 1.3345,
+      "market_value": 971.322512555499,
+      "unrealized_pnl": -28.677487444501025,
+      "unrealized_pnl_pct": -0.028677487444501024
+    },
+    "DOGE": {
+      "quantity": 9463.423866754993,
+      "avg_cost": 0.10567,
+      "current_price": 0.10234,
+      "market_value": 968.4867985237059,
+      "unrealized_pnl": -31.51320147629417,
+      "unrealized_pnl_pct": -0.03151320147629417
+    },
+    "LINK": {
+      "quantity": 102.51153254741158,
+      "avg_cost": 9.755,
+      "current_price": 9.42,
+      "market_value": 965.658636596617,
+      "unrealized_pnl": -34.34136340338296,
+      "unrealized_pnl_pct": -0.03434136340338296
+    },
+    "AVAX": {
+      "quantity": 105.78652279699567,
+      "avg_cost": 9.453,
+      "current_price": 9.154,
+      "market_value": 968.3698296836983,
+      "unrealized_pnl": -31.6301703163017,
+      "unrealized_pnl_pct": -0.0316301703163017
+    }
+  },
+  "realized_pnl": 0.0,
+  "unrealized_pnl": -362.58259359305396,
+  "max_drawdown": -0.01917912967965276,
+  "peak_value": 20000.0,
+  "equity_curve": [
+    20000.0,
+    19616.42
+  ],
+  "trades": [
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "BTC",
+      "action": "BUY",
+      "price": 77615.52,
+      "quantity": 0.06442011,
+      "notional": 5000.0,
+      "fee": 5.0,
+      "slippage": 2.5,
+      "total_cost": 7.5,
+      "net_spend": 5007.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "ETH",
+      "action": "BUY",
+      "price": 2133.77,
+      "quantity": 0.46865407,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "SOL",
+      "action": "BUY",
+      "price": 87.35,
+      "quantity": 11.44819691,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "BNB",
+      "action": "BUY",
+      "price": 658.58,
+      "quantity": 4.55525525,
+      "notional": 3000.0,
+      "fee": 3.0,
+      "slippage": 1.5,
+      "total_cost": 4.5,
+      "net_spend": 3004.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "XRP",
+      "action": "BUY",
+      "price": 1.3739,
+      "quantity": 727.85501128,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "DOGE",
+      "action": "BUY",
+      "price": 0.10567,
+      "quantity": 9463.42386675,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "LINK",
+      "action": "BUY",
+      "price": 9.755,
+      "quantity": 102.51153255,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    },
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "asset": "AVAX",
+      "action": "BUY",
+      "price": 9.453,
+      "quantity": 105.7865228,
+      "notional": 1000.0,
+      "fee": 1.0,
+      "slippage": 0.5,
+      "total_cost": 1.5,
+      "net_spend": 1001.5,
+      "reason": "Most assets are in downtrend with weak 7-day returns, but today's 1-day returns are broadly positive suggesting a short-term bounce. BNB stands out as the only strong_uptrend asset with positive 30d returns and RSI above 56, warranting overweight. BTC gets a moderate allocation as the largest and least volatile crypto. Keeping 30% cash as a buffer given the dominant downtrend environment across the universe."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "run_id": "ep01_20260521_1bab91",
+  "day": 4,
+  "decision_timestamp": "2026-05-24T00:00:00Z",
+  "portfolio": {
+    "total_value": 19773.59,
+    "cash": 5935.6,
+    "cash_pct": 0.3002,
+    "positions": {
+      "BTC": {
+        "quantity": 0.077384,
+        "current_price": 77064.96,
+        "market_value": 5963.59,
+        "allocation_pct": 0.3016,
+        "unrealized_pnl": -30.8,
+        "unrealized_pnl_pct": -0.0051
+      },
+      "ETH": {
+        "quantity": 0.46744146,
+        "current_price": 2099.85,
+        "market_value": 981.56,
+        "allocation_pct": 0.0496,
+        "unrealized_pnl": -15.45,
+        "unrealized_pnl_pct": -0.0155
+      },
+      "SOL": {
+        "quantity": 9.23410551,
+        "current_price": 85.27,
+        "market_value": 787.39,
+        "allocation_pct": 0.0398,
+        "unrealized_pnl": -19.21,
+        "unrealized_pnl_pct": -0.0238
+      },
+      "BNB": {
+        "quantity": 5.43020449,
+        "current_price": 656.57,
+        "market_value": 3565.31,
+        "allocation_pct": 0.1803,
+        "unrealized_pnl": -6.71,
+        "unrealized_pnl_pct": -0.0019
+      },
+      "XRP": {
+        "quantity": 437.2332643,
+        "current_price": 1.351,
+        "market_value": 590.7,
+        "allocation_pct": 0.0299,
+        "unrealized_pnl": -10.01,
+        "unrealized_pnl_pct": -0.0167
+      },
+      "DOGE": {
+        "quantity": 3841.27322611,
+        "current_price": 0.1023,
+        "market_value": 392.85,
+        "allocation_pct": 0.0199,
+        "unrealized_pnl": -13.06,
+        "unrealized_pnl_pct": -0.0322
+      },
+      "LINK": {
+        "quantity": 62.08840333,
+        "current_price": 9.431,
+        "market_value": 585.56,
+        "allocation_pct": 0.0296,
+        "unrealized_pnl": -20.12,
+        "unrealized_pnl_pct": -0.0332
+      },
+      "AVAX": {
+        "quantity": 105.40902038,
+        "current_price": 9.212,
+        "market_value": 971.03,
+        "allocation_pct": 0.0491,
+        "unrealized_pnl": -24.18,
+        "unrealized_pnl_pct": -0.0243
+      }
+    },
+    "total_unrealized_pnl": -139.54,
+    "total_realized_pnl": -62.3,
+    "max_drawdown_so_far": -0.0192,
+    "pnl_vs_start": -226.41,
+    "return_pct": -0.0113
+  },
+  "market": {
+    "BTC": {
+      "price": 77064.96,
+      "return_1d": 0.004077,
+      "return_7d": -0.00507,
+      "return_30d": -0.004806,
+      "rsi_7": 43.84,
+      "rsi_14": 47.09,
+      "sma_20": 79058.6635,
+      "sma_50": 76783.8034,
+      "volatility_14d_annualized": 0.2728,
+      "drawdown_from_30d_high": -0.0626,
+      "trend": "downtrend",
+      "candles_available": 64
+    },
+    "ETH": {
+      "price": 2099.85,
+      "return_1d": -0.00842,
+      "return_7d": -0.014618,
+      "return_30d": -0.092933,
+      "rsi_7": 34.3,
+      "rsi_14": 37.32,
+      "sma_20": 2224.4595,
+      "sma_50": 2264.3238,
+      "volatility_14d_annualized": 0.3164,
+      "drawdown_from_30d_high": -0.1145,
+      "trend": "strong_downtrend",
+      "candles_available": 64
+    },
+    "SOL": {
+      "price": 85.27,
+      "return_1d": -0.005598,
+      "return_7d": 0.000352,
+      "return_30d": -0.010559,
+      "rsi_7": 41.54,
+      "rsi_14": 45.28,
+      "sma_20": 89.0045,
+      "sma_50": 86.4392,
+      "volatility_14d_annualized": 0.4034,
+      "drawdown_from_30d_high": -0.1243,
+      "trend": "downtrend",
+      "candles_available": 64
+    },
+    "BNB": {
+      "price": 656.57,
+      "return_1d": 0.000472,
+      "return_7d": 0.010916,
+      "return_30d": 0.032002,
+      "rsi_7": 54.22,
+      "rsi_14": 55.03,
+      "sma_20": 654.815,
+      "sma_50": 633.9558,
+      "volatility_14d_annualized": 0.2313,
+      "drawdown_from_30d_high": -0.032,
+      "trend": "strong_uptrend",
+      "candles_available": 64
+    },
+    "XRP": {
+      "price": 1.351,
+      "return_1d": -0.005374,
+      "return_7d": -0.036102,
+      "return_30d": -0.057486,
+      "rsi_7": 37.27,
+      "rsi_14": 41.94,
+      "sma_20": 1.4075,
+      "sma_50": 1.3975,
+      "volatility_14d_annualized": 0.3787,
+      "drawdown_from_30d_high": -0.0904,
+      "trend": "downtrend",
+      "candles_available": 64
+    },
+    "DOGE": {
+      "price": 0.10227,
+      "return_1d": -0.007762,
+      "return_7d": -0.061657,
+      "return_30d": 0.039012,
+      "rsi_7": 34.72,
+      "rsi_14": 43.48,
+      "sma_20": 0.1086,
+      "sma_50": 0.1021,
+      "volatility_14d_annualized": 0.4003,
+      "drawdown_from_30d_high": -0.1142,
+      "trend": "downtrend",
+      "candles_available": 64
+    },
+    "LINK": {
+      "price": 9.431,
+      "return_1d": -0.014009,
+      "return_7d": -0.014525,
+      "return_30d": 0.005437,
+      "rsi_7": 38.75,
+      "rsi_14": 45.0,
+      "sma_20": 9.941,
+      "sma_50": 9.4938,
+      "volatility_14d_annualized": 0.4162,
+      "drawdown_from_30d_high": -0.1202,
+      "trend": "downtrend",
+      "candles_available": 64
+    },
+    "AVAX": {
+      "price": 9.212,
+      "return_1d": -0.018956,
+      "return_7d": 0.001304,
+      "return_30d": -0.02,
+      "rsi_7": 42.7,
+      "rsi_14": 45.63,
+      "sma_20": 9.5573,
+      "sma_50": 9.3939,
+      "volatility_14d_annualized": 0.4017,
+      "drawdown_from_30d_high": -0.0995,
+      "trend": "downtrend",
+      "candles_available": 64
+    }
+  },
+  "risk_constraints": {
+    "max_per_asset": 0.4,
+    "max_crypto_exposure": 0.8,
+    "min_cash": 0.2,
+    "leverage_enabled": false,
+    "shorting_enabled": false,
+    "fee_bps": 10,
+    "slippage_bps": 5,
+    "execution": "next_open"
+  },
+  "available_strategies": [
+    "trend_following",
+    "momentum_rotation",
+    "mean_reversion",
+    "breakout",
+    "risk_off",
+    "balanced"
+  ],
+  "benchmarks_so_far": {
+    "BTC_hold": -0.78,
+    "ETH_hold": -1.54,
+    "BTC_ETH_50_50": -1.16,
+    "equal_weight_universe": -1.1,
+    "cash": 0.0
+  },
+  "prior_decisions": [
+    {
+      "day": 1,
+      "date": "2026-05-21",
+      "strategy": "balanced",
+      "action": "increase_exposure",
+      "market_view": "mixed",
+      "confidence": 0.55
+    },
+    {
+      "day": 2,
+      "date": "2026-05-22",
+      "strategy": "risk_off",
+      "action": "de_risk",
+      "market_view": "bearish",
+      "confidence": 0.65
+    },
+    {
+      "day": 3,
+      "date": "2026-05-23",
+      "strategy": "momentum_rotation",
+      "action": "rebalance",
+      "market_view": "mixed",
+      "confidence": 0.58
+    }
+  ],
+  "instruction": "Return ONLY valid JSON matching the schema exactly. Allocations must sum to 1.0. CASH minimum is 0.20. No single asset may exceed 0.40."
+}

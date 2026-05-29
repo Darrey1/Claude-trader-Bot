@@ -1,0 +1,20 @@
+{
+  "day": 7,
+  "market_view": "bearish",
+  "selected_strategy": "risk_off",
+  "portfolio_action": "de_risk",
+  "target_allocations": {
+    "BTC": 0.25,
+    "ETH": 0.05,
+    "SOL": 0.03,
+    "BNB": 0.15,
+    "XRP": 0.02,
+    "DOGE": 0.01,
+    "LINK": 0.02,
+    "AVAX": 0.02,
+    "CASH": 0.45
+  },
+  "reasoning": "All assets remain in downtrends with RSI readings below 40 across the board, and most altcoins are showing RSI in the high 20s to low 30s indicating continued selling pressure without confirmed reversal. On the final day of the challenge, capital preservation takes priority — increasing CASH to 45% while retaining a modest BTC position (strongest relative performer) and trimming the oversized BNB position. This locks in a more defensive posture to avoid further drawdown.",
+  "risk_note": "Primary risk is continued broad crypto market decline with no technical reversal signals; preserving capital against further losses outweighs potential upside from mean-reversion bounce.",
+  "confidence": 0.6
+}
