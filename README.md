@@ -1,6 +1,6 @@
 # Claude Trader — $20,000 AI Crypto Challenge
 
-A fully automated paper trading system where Claude AI manages a simulated $20,000 crypto portfolio. Built for the YouTube video *"I Gave Claude $20,000 To Trade Crypto"*.
+A fully automated paper trading system where Claude AI manages a simulated $20,000 crypto portfolio.
 
 Claude reads live market data from Binance every day, computes technical indicators, decides how to allocate the portfolio across 8 cryptocurrencies, and executes simulated trades — all with full logging, risk enforcement, and a visual dashboard.
 
